@@ -45,7 +45,7 @@
 </html>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Veritabanı bağlantısını burada yapabilirsiniz (örneğin, mysqli kullanarak)
+   
 
     $kelime = $_POST["kelime"];
     $tanım = $_POST["tanım"];
